@@ -1,0 +1,76 @@
+/* Center the entire viewer container */
+.viewer-container {
+  display: flex;
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+  height: 90vh;  
+  width: 80vh; 
+  background-color: #f0f0f0;
+  padding: 0 20px;  
+  margin-left: 350px;
+  margin-top: -15px;
+}
+
+
+.search-form {
+  display: flex;
+  flex-direction: column; /* Stack the input and button vertically */
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #e0e0e0; /* Grey background for the form */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0366d6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #024ea2;
+}
+
+.profile-card {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #e1e4e8;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #d2dfc6;
+}
+
+.profile-card
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contribution-graph {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
